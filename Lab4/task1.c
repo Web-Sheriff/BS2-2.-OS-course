@@ -5,19 +5,19 @@
 
 int main() {
 
-int n;
+	int n;
 
-n = fork();
+	n = fork();
 
-if (n == 0){
+	if (n == 0){
 
-printf("Hello from child [PID - %d]\n", getpid());
+		printf("Hello from child [PID - %d]\n", getpid());
 
-}
-  
-else {
-printf("Hello from parent [PID - %d]\n", getpid());
+	}
+	else {
+		printf("Hello from parent [PID - %d]\n", getpid());
 
-}
-return 0;
+	}
+	return 0;
+
 }
