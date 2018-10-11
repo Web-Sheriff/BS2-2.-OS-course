@@ -1,0 +1,2 @@
+Physical address is that address which is recognised and used by hardvare and OS, while virtual address is for users and their applications.
+However, on computers without virtual memory, the virtual address is put directly onto the memory bus and causes the physical memory word with the same address to be read or written. When virtual memory is used, the virtual addresses do not go directly to the memory bus unlike physical address.
