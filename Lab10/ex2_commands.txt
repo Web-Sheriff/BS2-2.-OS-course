@@ -1,0 +1,13 @@
+mkdir week01
+cd week01
+> file.txt
+cd ..
+cd week10
+cd ex2
+link ../../week01/file.txt _ex2.txt
+ls -i _ex2.txt >> ex2.txt
+cat ex2.txt
+find ../.. -inum "число из ex2.txt" >> ex2.txt
+find ../.. Цinum "число из ex2.txt" -exec rm {} \;
+
+

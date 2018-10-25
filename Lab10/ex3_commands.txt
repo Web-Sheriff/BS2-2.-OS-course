@@ -1,0 +1,15 @@
+mkdir ex3
+cd ex3
+> _ex3.txt
+chmod a=rw- _ex3.txt
+ls -l _ex3.txt >> ex3.txt
+chmod u=rwx _ex3.txt
+chmod o=rwx _ex3.txt
+ls -l _ex3.txt >> ex3.txt
+chmod 660 _ex3.txt
+ls -l _ex3.txt >> ex3.txt
+chmod 775 _ex3.txt
+ls -l _ex3.txt >> ex3.txt
+chmod 777 _ex3.txt
+ls -l _ex3.txt >> ex3.txt
+
