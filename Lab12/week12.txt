@@ -1,0 +1,14 @@
+-DBUF_SIZE=1024
+real    0m0.014s
+user    0m0.000s
+sys     0m0.000s
+
+-DBUF_SIZE=3
+real    0m0.025s
+user    0m0.000s
+sys     0m0.000s
+
+-DBUF_SIZE=1 O_SYNC
+real    0m0.050s
+user    0m0.000s
+sys     0m0.031s
